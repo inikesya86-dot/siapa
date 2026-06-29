@@ -1,6 +1,6 @@
 # MINISTER LIKE API SRC UID PASSWORD 
-# POWERED BY : @minister_69
-# CHANNEL : @minister_6T9
+# POWERED BY : KAYLA
+# CHANNEL : KAYLA
 from flask import Flask, request, jsonify
 import asyncio
 from Crypto.Cipher import AES
@@ -45,7 +45,7 @@ def load_accounts(server_name):
         if server_name == "IND":
             filename = "account_ind.txt"
         elif server_name in {"BR", "US", "SAC", "NA"}:
-            filename = "account_br.txt"
+            filename = "account_na.txt"
         else:  # BD and others
             filename = "account_bd.txt"
         
